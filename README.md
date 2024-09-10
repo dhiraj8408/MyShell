@@ -12,6 +12,7 @@
 2. **Directory Navigation** (`cd` command):  
    - `cd <directory>`: Change to the specified directory.
    - `cd ..`: Move to the parent directory.
+   - `cd -` : Switches to the previous working directory.
    
 3. **Command Error Handling**:  
    For invalid commands, MyShell returns the message:
