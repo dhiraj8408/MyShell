@@ -447,8 +447,10 @@ int main()
             printf("Exiting shell...\n");
             break;
         }
-
-        if (typeOfCommands[3])
+        if(typeOfCommands[2] && typeOfCommands[1]){
+            printf("Shell: Incorrect command\n");
+        }
+        else if (typeOfCommands[3])
         {
             executeCommandRedirection(&statusCode);
             if (statusCode == -1)
